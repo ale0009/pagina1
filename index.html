@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CRUD Application</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>CRUD Application</h1>
+</header>
+<main>
+  <section>
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+      <input type="text" name="username" placeholder="Username">
+      <input type="password" name="password" placeholder="Password">
+      <input type="submit" value="Login">
+    </form>
+  </section>
+  <section>
+    <h2>Create Worker</h2>
+    <form action="create.php" method="post">
+      <input type="text" name="cedula" placeholder="Cedula">
+      <input type="text" name="name" placeholder="Name">
+      <input type="text" name="salary" placeholder="Salary">
+      <input type="text" name="days_worked" placeholder="Days Worked">
+      <input type="text" name="nhed" placeholder="NHED">
+      <input type="text" name="nhen" placeholder="NHEN">
+      <input type="text" name="nhedd" placeholder="NHEDD">
+      <input type="text" name="nheDN" placeholder="NHEDN">
+      <input type="text" name="nhrn" placeholder="NHRN">
+      <input type="submit" value="Create">
+    </form>
+  </section>
+  <section>
+    <h2>Read Worker</h2>
+    <form action="read.php" method="post">
+      <input type="text" name="cedula" placeholder="Cedula">
+      <input type="submit" value="Read">
+    </form>
+  </section>
+  <section>
+    <h2>Update Worker</h2>
+    <form action="update.php" method="post">
+      <input type="text" name="cedula" placeholder="Cedula">
+      <input type="text" name="name" placeholder="Name">
+      <input type="text" name="salary" placeholder="Salary">
+      <input type="text" name="days_worked" placeholder="Days Worked">
+      <input type="text" name="nhed" placeholder="NHED">
+      <input type="text" name="nhen" placeholder="NHEN">
+      <input type="text" name="nhedd" placeholder="NHEDD">
+      <input type="text" name="nheDN" placeholder="NHEDN">
+      <input type="text" name="nhrn" placeholder="NHRN">
+      <input type="submit" value="Update">
+    </form>
+  </section>
+  <section>
+    <h2>Delete Worker</h2>
+    <form action="delete.php" method="post">
+      <input type="text" name="cedula" placeholder="Cedula">
+      <input type="submit" value="Delete">
+    </form>
+  </section>
+  <section>
+    <h2>Show All Workers</h2>
+    <form action="showall.php" method="post">
+      <input type="submit" value="Show All">
+    </form>
+  </section>
+</main>
+<footer>
+  <p>Derechos reservados © 2023 Mi página web</p>
+  <ul class="redes-sociales">
+    <li><a href=>facebook</a></li>
+    <li><a href=>twitter</a></li>
+    <li><a href=>instagram</a></li>
+  </ul>
+</footer>
+</body>
+</html>
